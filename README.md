@@ -1,7 +1,7 @@
 # django-docker
 - As name suggest, this is Python Django web framework which runs on docker container.
 - There is two docker files named **Dockerfile** and **docker-compose.yml**
-- There is also django webapp which is blank for further use in django + docker related project.
+- There is also django webapp which scrapes whatever URL you were provided in input field.
 
 ### Commands needed to run :
 - To create root folder/directory in django docker 
