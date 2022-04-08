@@ -4,3 +4,4 @@ docker ps # when need to know process or host running.
 sudo chown -R $USER:$USER . # to change root user to current use in ubuntu. b/c sometimes permission needed.
 # to execute django commands while running docker.
 docker exec django-docker_web_1 python manage.py startapp app
+
