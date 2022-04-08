@@ -1,8 +1,10 @@
+from termios import N_MOUSE
 from django.urls import path 
 from . import views
 
 urlpatterns = [
-    path('hello/',views.hello, name="hello"),
+    path('home/',views.ScraperCreateView.as_view(),name='home'),
+
 ]
 
 
