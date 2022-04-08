@@ -20,7 +20,8 @@ docker exec django-docker_web_1 python manage.py migrate
 ```
 
 - **Note** : All above commonds wil run while docker runs python django server.
-- To run django in docker container
+
+### To run django in docker container
 ```
 docker-compose up
 ```
